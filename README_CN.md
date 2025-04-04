@@ -53,7 +53,7 @@ AstroVerse是专为引人入胜的图文叙事而设计的Astro主题。
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)。
 - [Astro](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode)。
 
-1. 派生或使用此[模板](https://github.com/inotelab/astrology)。
+1. 派生或使用此[模板](https://github.com/idimilab/astrology)。
 
 2. 安装依赖项:
 
@@ -136,12 +136,12 @@ export const FooterLinks = [
 export const SocialLinks = [
   { href: "/rss.xml", icon: "tabler:rss", label: "RSS" },
   {
-    href: "https://twitter.com/inotelab",
+    href: "https://twitter.com/idimilab",
     icon: "tabler:brand-twitter",
     label: "Twitter",
   },
   {
-    href: "https://github.com/inotelab",
+    href: "https://github.com/idimilab",
     icon: "tabler:brand-github",
     label: "GitHub",
   },
@@ -158,7 +158,7 @@ _TITLE}上搜索所有内容`;
 
 点击下面的按钮在Vercel上开始部署您的项目：
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/inotelab/astrology)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/idimilab/astrology)
 
 ## ✨ 加入并贡献
 
