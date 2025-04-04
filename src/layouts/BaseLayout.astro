@@ -1,0 +1,32 @@
+---
+import BaseHead from "@components/BaseHead.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import "../styles/global.css";
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
+  <body
+    class="flex flex-col min-h-screen mx-auto max-w-6xl px-4 dark:prose-invert sm:px-6 lg:px-8 dark:bg-neutral-900"
+  >
+    <Header />
+    <main class="grow">
+      <slot />
+    </main>
+
+    <Footer />
+
+    <script>
+			document.addEventListener('astro:page-load', async () => {
+				const preline = await import('preline/dist/preline.js')
+				preline.HSStaticMethods.autoInit()
+			})
+	  </script>
+
+  </body>
+</html>
