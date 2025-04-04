@@ -24,7 +24,7 @@
     "dayjs": "^1.11.11",
     "pagefind": "^1.1.1",
     "preline": "^3.0.1",
-    "sharp": "^0.33.4",
+    "sharp": "^0.34.0",
     "tailwindcss": "^4.1.1"
   },
   "devDependencies": {
