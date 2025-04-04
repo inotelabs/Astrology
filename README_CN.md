@@ -2,21 +2,21 @@
 
 🇺🇸[English](README.md) 🇨🇳[中文](README_CN.md)
 
-## 🚀 **AstroVerse**: 一款用于视觉叙事的Astro主题
+## 🚀 **Astrology**: 一款用于视觉叙事的Astro主题
 
-AstroVerse是专为引人入胜的图文叙事而设计的Astro主题。
+Astrology是专为引人入胜的图文叙事而设计的Astro主题。
 
 它无缝地融合了视觉和文字内容，赋予创作者以使用高影响力图像传递引人入胜叙事的能力。
 
-适用于希望通过引人注目的视觉效果和引人入胜的散文使自己的故事脱颖而出的博客作者和内容创作者，AstroVerse为创造沉浸式和具有影响力的数字体验提供了平台。
+适用于希望通过引人注目的视觉效果和引人入胜的散文使自己的故事脱颖而出的博客作者和内容创作者，Astrology为创造沉浸式和具有影响力的数字体验提供了平台。
 
-<img src="public/screenshot.webp" alt="AstroVerse 屏幕截图" />
+<img src="public/screenshot.webp" alt="Astrology 屏幕截图" />
 
 ## 💯网站性能评分
 
 <p align="center">
   <a href="https://pagespeed.web.dev/analysis/https-astrology-monolingual-vercel-app/aqi4acrb11?form_factor=mobile">
-    <img width="510" alt="AstroVerse 网站性能评分" src="public/astrology-lighthouse-score.svg">
+    <img width="510" alt="Astrology 网站性能评分" src="public/astrology-lighthouse-score.svg">
   <a>
 </p>
 
@@ -38,13 +38,13 @@ AstroVerse是专为引人入胜的图文叙事而设计的Astro主题。
 
 ## 🎡 在线演示
 
-在操作中体验[**AstroVerse**](https://astrology.inote.xyz)。
+在线体验[**Astrology**](https://astrology-monolingual.vercel.app/)。
 
 ## 🌆 项目展示
 
-分享您使用AstroVerse构建的项目！在我们的展示中打开一个标题为“展示提交”的问题，附上您项目的详细信息，以便在我们的展示中予以展示。
+分享您使用Astrology构建的项目！在我们的展示中打开一个标题为“展示提交”的问题，附上您项目的详细信息，以便在我们的展示中予以展示。
 
-- [**iNote**](https://inote.xyz)
+- [**Astrology**](https://astrology-monolingual.vercel.app/)
 
 ## 💻 本地运行
 
@@ -93,19 +93,19 @@ pnpm run dev
 // 您可以使用 `import` 关键字从站点的任何位置导入此数据。
 
 // 基本页面元数据, src/layouts/BaseLayout.astro
-export const BRAND_NAME = "AstroVerse";
-export const SITE_TITLE = "AstroVerse";
+export const BRAND_NAME = "Astrology";
+export const SITE_TITLE = "Astrology";
 export const SITE_DESCRIPTION = "一款用于视觉叙事的Astro主题";
 
 // 标签页面元数据, src/pages/tags/index.astro
-export const Tags_TITLE = "AstroVerse - 所有标签";
+export const Tags_TITLE = "Astrology - 所有标签";
 export const Tags_DESCRIPTION =
-  "AstroVerse - 所有标签以及与每个标签相关的文章数量";
+  "Astrology - 所有标签以及与每个标签相关的文章数量";
 
 // 标签页面元数据, src/pages/tags/[tag]/[page].astro
 export function getTagMetadata(tag: string) {
   return {
-    title: `在AstroVerse中 '${tag}' 标签的所有文章`,
+    title: `在Astrology中 '${tag}' 标签的所有文章`,
     description: `探索有关${tag}的文章，了解不同的观点和深度分析。`,
   };
 }
@@ -113,8 +113,8 @@ export function getTagMetadata(tag: string) {
 // 分类页面元数据, src/pages/category/[category]/[page].astro
 export function getCategoryMetadata(category: string) {
   return {
-    title: `在AstroVerse中 '${category}' 类别的所有文章`,
-    description: `在AstroVerse中浏览所有属于${category}类别的文章`,
+    title: `在Astrology中 '${category}' 类别的所有文章`,
+    description: `在Astrology中浏览所有属于${category}类别的文章`,
   };
 }
 
@@ -162,4 +162,4 @@ _TITLE}上搜索所有内容`;
 
 ## ✨ 加入并贡献
 
-您的贡献使AstroVerse变得更好！无论是通过代码、设计、错误报告还是功能想法，我们都重视您的意见。查看我们的问题或提交拉取请求来开始。让我们一起增强AstroVerse！
+您的贡献使Astrology变得更好！无论是通过代码、设计、错误报告还是功能想法，我们都重视您的意见。查看我们的问题或提交拉取请求来开始。让我们一起增强Astrology！

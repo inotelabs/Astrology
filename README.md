@@ -2,21 +2,21 @@
 
 🇺🇸[English](README.md) 🇨🇳[中文](README_CN.md)
 
-## 🚀 **AstroVerse**: An Astro Theme for Visual Storytelling
+## 🚀 **Astrology**: An Astro Theme for Visual Storytelling
 
-AstroVerse is an Astro theme tailored for captivating photo-text storytelling.
+Astrology is an Astro theme tailored for captivating photo-text storytelling.
 
 It seamlessly merges visuals and written content, empowering creators to deliver compelling narratives with high-impact imagery.
 
-Ideal for bloggers and content creators seeking to make their stories stand out through the fusion of striking visuals and engaging prose, AstroVerse provides a platform to create immersive and influential digital experiences.
+Ideal for bloggers and content creators seeking to make their stories stand out through the fusion of striking visuals and engaging prose, Astrology provides a platform to create immersive and influential digital experiences.
 
-<img src="public/screenshot.webp" alt="AstroVerse Screenshot" />
+<img src="public/screenshot.webp" alt="Astrology Screenshot" />
 
 ## 💯Lighthouse Score
 
 <p align="center">
   <a href="https://pagespeed.web.dev/analysis/https-astrology-monolingual-vercel-app/aqi4acrb11?form_factor=mobile">
-    <img width="510" alt="AstroVerse Lighthouse Score" src="public/astrology-lighthouse-score.svg">
+    <img width="510" alt="Astrology Lighthouse Score" src="public/astrology-lighthouse-score.svg">
   <a>
 </p>
 
@@ -38,11 +38,11 @@ Ideal for bloggers and content creators seeking to make their stories stand out 
 
 ## 🎡 Live demo
 
-Experience [**AstroVerse**](https://verse-astro.vercel.app) in action.
+Experience [**Astrology**](https://astrology-monolingual.vercel.app) in action.
 
 ## 🌆 Showcase
 
-Share your project built with AstroVerse! Open an issue titled "Showcase Submission" with your project's details to be featured in our Showcase.
+Share your project built with Astrology! Open an issue titled "Showcase Submission" with your project's details to be featured in our Showcase.
 
 
 ## 💻 Running Locally
@@ -92,19 +92,19 @@ Basic configuration file: `./src/consts.ts`
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 // Base Page Metadata, src/layouts/BaseLayout.astro
-export const BRAND_NAME = "AstroVerse";
-export const SITE_TITLE = "AstroVerse";
+export const BRAND_NAME = "Astrology";
+export const SITE_TITLE = "Astrology";
 export const SITE_DESCRIPTION = "An Astro Theme for Visual Storytelling";
 
 // Tags Page Metadata, src/pages/tags/index.astro
-export const Tags_TITLE = "AstroVerse - All Tags";
+export const Tags_TITLE = "Astrology - All Tags";
 export const Tags_DESCRIPTION =
-  "AstroVerse - All tags and the count of articles related to each tag";
+  "Astrology - All tags and the count of articles related to each tag";
 
 // Tags Page Metadata, src/pages/tags/[tag]/[page].astro
 export function getTagMetadata(tag: string) {
   return {
-    title: `All articles on '${tag}' tag in AstroVerse`,
+    title: `All articles on '${tag}' tag in Astrology`,
     description: `Explore articles about ${tag} for different perspectives and in-depth analysis.`,
   };
 }
@@ -112,8 +112,8 @@ export function getTagMetadata(tag: string) {
 // Category Page Metadata, src/pages/category/[category]/[page].astro
 export function getCategoryMetadata(category: string) {
   return {
-    title: `All articles in '${category}' category in AstroVerse`,
-    description: `Browse all articles under the ${category} category in AstroVerse`,
+    title: `All articles in '${category}' category in Astrology`,
+    description: `Browse all articles under the ${category} category in Astrology`,
   };
 }
 
@@ -160,4 +160,4 @@ Click the button below to start deploying your project on Vercel:
 
 ## ✨ Join and Contribute
 
-Your contributions make AstroVerse better! Whether it's through code, design, bug reports, or feature ideas, we value your input. Check our Issues or submit a Pull Request to get started. Together, let's enhance AstroVerse!
+Your contributions make Astrology better! Whether it's through code, design, bug reports, or feature ideas, we value your input. Check our Issues or submit a Pull Request to get started. Together, let's enhance Astrology!

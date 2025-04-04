@@ -10,7 +10,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://verse-astro.vercel.app",
+  site: "https://astrology-monolingual.vercel.app",
   trailingSlash: "always",
   vite: {
     plugins: [tailwindcss()],
