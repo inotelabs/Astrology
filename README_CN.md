@@ -15,8 +15,8 @@ AstroVerse是专为引人入胜的图文叙事而设计的Astro主题。
 ## 💯网站性能评分
 
 <p align="center">
-  <a href="https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fastroverse.inote.xyz%2F">
-    <img width="510" alt="AstroVerse 网站性能评分" src="public/astroverse-lighthouse-score.svg">
+  <a href="https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fastrology.inote.xyz%2F">
+    <img width="510" alt="AstroVerse 网站性能评分" src="public/astrology-lighthouse-score.svg">
   <a>
 </p>
 
@@ -38,7 +38,7 @@ AstroVerse是专为引人入胜的图文叙事而设计的Astro主题。
 
 ## 🎡 在线演示
 
-在操作中体验[**AstroVerse**](https://astroverse.inote.xyz)。
+在操作中体验[**AstroVerse**](https://astrology.inote.xyz)。
 
 ## 🌆 项目展示
 
@@ -53,7 +53,7 @@ AstroVerse是专为引人入胜的图文叙事而设计的Astro主题。
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)。
 - [Astro](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode)。
 
-1. 派生或使用此[模板](https://github.com/inotelab/astroverse)。
+1. 派生或使用此[模板](https://github.com/inotelab/astrology)。
 
 2. 安装依赖项:
 
@@ -158,7 +158,7 @@ _TITLE}上搜索所有内容`;
 
 点击下面的按钮在Vercel上开始部署您的项目：
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/inotelab/astroverse)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/inotelab/astrology)
 
 ## ✨ 加入并贡献
 

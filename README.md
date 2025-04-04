@@ -16,7 +16,7 @@ Ideal for bloggers and content creators seeking to make their stories stand out 
 
 <p align="center">
   <a href="https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fverse-astro.vercel.app%2F">
-    <img width="510" alt="AstroVerse Lighthouse Score" src="public/astroverse-lighthouse-score.svg">
+    <img width="510" alt="AstroVerse Lighthouse Score" src="public/astrology-lighthouse-score.svg">
   <a>
 </p>
 
@@ -52,7 +52,7 @@ Share your project built with AstroVerse! Open an issue titled "Showcase Submiss
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss).
 - [Astro](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode).
 
-1. Fork or use this [template](https://github.com/inotelab/astroverse)
+1. Fork or use this [template](https://github.com/inotelab/astrology)
 
 2. Install dependencies:
 
@@ -156,7 +156,7 @@ export const SEARCH_PAGE_DESCRIPTION = `Search all content on ${SITE_TITLE}`;
 
 Click the button below to start deploying your project on Vercel:
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/inotelab/astroverse)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/inotelab/astrology)
 
 ## ✨ Join and Contribute
 
