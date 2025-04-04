@@ -15,7 +15,7 @@ AstroVerse是专为引人入胜的图文叙事而设计的Astro主题。
 ## 💯网站性能评分
 
 <p align="center">
-  <a href="https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fastrology.inote.xyz%2F">
+  <a href="https://pagespeed.web.dev/analysis/https-astrology-monolingual-vercel-app/aqi4acrb11?form_factor=mobile">
     <img width="510" alt="AstroVerse 网站性能评分" src="public/astrology-lighthouse-score.svg">
   <a>
 </p>

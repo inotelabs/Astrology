@@ -15,7 +15,7 @@ Ideal for bloggers and content creators seeking to make their stories stand out 
 ## 💯Lighthouse Score
 
 <p align="center">
-  <a href="https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fverse-astro.vercel.app%2F">
+  <a href="https://pagespeed.web.dev/analysis/https-astrology-monolingual-vercel-app/aqi4acrb11?form_factor=mobile">
     <img width="510" alt="AstroVerse Lighthouse Score" src="public/astrology-lighthouse-score.svg">
   <a>
 </p>
