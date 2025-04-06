@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import RelatedPostsCard from "@components/RelatedPostsCard.astro";
 import FormattedDate from "@components/FormattedDate.astro";
@@ -8,13 +8,14 @@ import OptimizedCover from "@components/OptimizedPicture.astro";
 export async function getStaticPaths() {
   const posts = await getCollection("posts");
   return posts.map((post) => ({
-    params: { slug: post.slug },
+    params: { slug: decodeURI(post.id) },
     props: post,
   }));
 }
 
+const { slug } = Astro.params;
 const post = Astro.props;
-const { Content } = await post.render();
+const { Content } = await render(post);
 ---
 
 <BaseLayout title={post.data.title} description={post.data.description}>
@@ -45,7 +46,7 @@ const { Content } = await post.render();
         <div class="flex justify-between">
           <small
             >Publish on <FormattedDate date={post.data.pubDate} />，Update on <FormattedDate
-              date={new Date().toISOString()}
+              date={post.data.lastModified || new Date().toISOString()}
             /></small
           >
         </div>
@@ -53,7 +54,7 @@ const { Content } = await post.render();
     <div class="mt-4">
       <RelatedPostsCard
         currentCategory={post.data.category[0]}
-        currentSlug={post.slug}
+        currentSlug={post.id}
       />
     </div>
   </main>

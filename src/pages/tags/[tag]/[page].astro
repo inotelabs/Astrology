@@ -24,7 +24,10 @@ export async function getStaticPaths() {
     const totalPages = Math.ceil(filteredPosts.length / pageSize);
 
     return Array.from({ length: totalPages }, (_, index) => ({
-      params: { tag, page: (index + 1).toString() },
+      params: { 
+        tag: decodeURI(tag), 
+        page: (index + 1).toString() 
+      },
       props: {
         page: {
           data: filteredPosts.slice(index * pageSize, (index + 1) * pageSize),
@@ -36,26 +39,26 @@ export async function getStaticPaths() {
   });
 }
 
-const params = Astro.params;
-const { page } = Astro.props;
-const { title, description } = getTagMetadata(params.tag);
+const { tag, page } = Astro.params;
+const { page: pageData } = Astro.props;
+const { title, description } = getTagMetadata(tag);
 ---
 
 <BaseLayout title={title} description={description}>
   <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-    {page.data.map((post) => <PostCard post={post} />)}
+    {pageData.data.map((post) => <PostCard post={post} />)}
   </div>
 
   <Pagination
-    currentPage={page.currentPage}
-    lastPage={page.lastPage}
-    urlPrev={page.currentPage > 1
-      ? `/tags/${params.tag}/${page.currentPage - 1}`
+    currentPage={pageData.currentPage}
+    lastPage={pageData.lastPage}
+    urlPrev={pageData.currentPage > 1
+      ? `/tags/${tag}/${pageData.currentPage - 1}`
       : null}
-    urlNext={page.currentPage < page.lastPage
-      ? `/tags/${params.tag}/${page.currentPage + 1}`
+    urlNext={pageData.currentPage < pageData.lastPage
+      ? `/tags/${tag}/${pageData.currentPage + 1}`
       : null}
-    basePath={`/tags/${params.tag}`}
+    basePath={`/tags/${tag}`}
     maxDisplayedPages={5}
   />
 </BaseLayout>
