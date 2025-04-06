@@ -44,7 +44,6 @@ Experience [**Astrology**](https://astrology-monolingual.vercel.app) in action.
 
 Share your project built with Astrology! Open an issue titled "Showcase Submission" with your project's details to be featured in our Showcase.
 
-
 ## 💻 Running Locally
 
 **Recommended extensions for VSCode:**
@@ -74,14 +73,14 @@ Adding a post is as simple as adding a .md or .mdx file to the blog folder at th
 
 All commands are run from the root of the project, from a terminal:
 
-| Command           | Action                                       |
-| :---------------- | :------------------------------------------- |
-| `pnpm install`     | Installs dependencies                        |
-| `pnpm run dev`     | Starts local dev server at `localhost:4321`  |
-| `pnpm run build`   | Build your production site to `./dist/`      |
-| `pnpm run preview` | Preview your build locally, before deploying |
-| `pnpm run format`  | Code formatter using prettier                |
-| `npx @astrojs/upgrade`  | To upgrade                |
+| Command                | Action                                       |
+| :--------------------- | :------------------------------------------- |
+| `pnpm install`         | Installs dependencies                        |
+| `pnpm run dev`         | Starts local dev server at `localhost:4321`  |
+| `pnpm run build`       | Build your production site to `./dist/`      |
+| `pnpm run preview`     | Preview your build locally, before deploying |
+| `pnpm run format`      | Code formatter using prettier                |
+| `npx @astrojs/upgrade` | To upgrade                                   |
 
 ### 🔧Configuration
 
@@ -150,7 +149,6 @@ export const SocialLinks = [
 export const SEARCH_PAGE_TITLE = `${SITE_TITLE} - Site Search`;
 export const SEARCH_PAGE_DESCRIPTION = `Search all content on ${SITE_TITLE}`;
 ```
-
 
 ## Deployment
 

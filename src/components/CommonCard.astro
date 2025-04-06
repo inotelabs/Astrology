@@ -5,15 +5,17 @@ import FormattedDate from "@components/FormattedDate.astro";
 const { post } = Astro.props;
 ---
 
-<div class="overflow-hidden rounded-xl bg-white transition-transform duration-500 hover:-translate-y-1 hover:scale-105 dark:bg-neutral-900">
+<div
+  class="overflow-hidden rounded-xl bg-white transition-transform duration-500 hover:-translate-y-1 hover:scale-105 dark:bg-neutral-900"
+>
   <a href={`/posts/${post.id}/`} class="block relative h-full">
     <OptimizedCover src={post.data.cover} alt={post.data.coverAlt} />
-    <div class="absolute bottom-0 end-0 start-0 bg-linear-to-t from-black to-transparent p-4 md:p-5">
+    <div
+      class="absolute bottom-0 end-0 start-0 bg-linear-to-t from-black to-transparent p-4 md:p-5"
+    >
       <div class="mt-16 flex items-center gap-4 text-xs text-white">
         <div class="flex flex-wrap gap-2">
-          {post.data.tags.map((tag: string) => (
-            <span>{tag}</span>
-          ))}
+          {post.data.tags.map((tag: string) => <span>{tag}</span>)}
         </div>
         <FormattedDate date={post.data.pubDate} />
       </div>

@@ -7,7 +7,6 @@ import pagefind from "astro-pagefind";
 import icon from "astro-icon";
 import tailwindcss from "@tailwindcss/vite";
 
-
 // https://astro.build/config
 export default defineConfig({
   site: "https://astrology-monolingual.vercel.app",
@@ -17,7 +16,7 @@ export default defineConfig({
   },
   prefetch: {
     prefetchAll: true,
-    defaultStrategy: 'viewport',
+    defaultStrategy: "viewport",
   },
 
   image: {
@@ -49,6 +48,5 @@ export default defineConfig({
         tabler: ["*"],
       },
     }),
-    
   ],
 });

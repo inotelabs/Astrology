@@ -22,11 +22,10 @@ const { title, description } = Astro.props;
     <Footer />
 
     <script>
-			document.addEventListener('astro:page-load', async () => {
-				const preline = await import('preline/dist/preline.js')
-				preline.HSStaticMethods.autoInit()
-			})
-	  </script>
-
+      document.addEventListener("astro:page-load", async () => {
+        const preline = await import("preline/dist/preline.js");
+        preline.HSStaticMethods.autoInit();
+      });
+    </script>
   </body>
 </html>

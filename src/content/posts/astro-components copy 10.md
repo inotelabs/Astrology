@@ -330,9 +330,7 @@ Slots can be transferred to other components. For example, when creating nested 
 ```
 
 ```astro {6,7}
-// src/layouts/HomeLayout.astro
-
-import BaseLayout from './BaseLayout.astro';
+// src/layouts/HomeLayout.astro import BaseLayout from './BaseLayout.astro';
 <BaseLayout>
   <slot name="head" slot="head" />
   <slot />
@@ -346,9 +344,7 @@ Named slots can be transferred to another component using both the `name` and `s
 Now, the default and `head` slots passed to `HomeLayout` will be transferred to the `BaseLayout` parent
 
 ```astro
-// src/pages/index.astro
-
-import HomeLayout from '../layouts/HomeLayout.astro';
+// src/pages/index.astro import HomeLayout from '../layouts/HomeLayout.astro';
 <HomeLayout>
   <title slot="head">Astro</title>
   <h1>Astro</h1>

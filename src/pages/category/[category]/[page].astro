@@ -24,9 +24,9 @@ export async function getStaticPaths() {
     const totalPages = Math.ceil(filteredPosts.length / pageSize);
 
     return Array.from({ length: totalPages }, (_, index) => ({
-      params: { 
-        category: decodeURI(category), 
-        page: (index + 1).toString() 
+      params: {
+        category: decodeURI(category),
+        page: (index + 1).toString(),
       },
       props: {
         page: {
