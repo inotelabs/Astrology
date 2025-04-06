@@ -39,7 +39,7 @@ export async function getStaticPaths() {
   });
 }
 
-const { tag, page } = Astro.params;
+const { tag } = Astro.params;
 const { page: pageData } = Astro.props;
 const { title, description } = getTagMetadata(tag);
 ---
