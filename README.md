@@ -17,7 +17,7 @@ Ideal for bloggers and content creators seeking to make their stories stand out 
 <p align="center">
   <a href="https://pagespeed.web.dev/analysis/https-astrology-monolingual-vercel-app/aqi4acrb11?form_factor=mobile">
     <img width="510" alt="Astrology Lighthouse Score" src="public/astrology-lighthouse-score.svg">
-  <a>
+  </a>
 </p>
 
 ## 🎉 Features

@@ -17,7 +17,7 @@ Astrology是专为引人入胜的图文叙事而设计的Astro主题。
 <p align="center">
   <a href="https://pagespeed.web.dev/analysis/https-astrology-monolingual-vercel-app/aqi4acrb11?form_factor=mobile">
     <img width="510" alt="Astrology 网站性能评分" src="public/astrology-lighthouse-score.svg">
-  <a>
+  </a>
 </p>
 
 ## 🎉 特色功能
