@@ -19,14 +19,9 @@ export default defineConfig({
     defaultStrategy: "viewport",
   },
 
-  image: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "**.unsplash.com",
-      },
-    ],
-  },
+  // Disable remote image optimization during build to avoid network
+  // requests when processing Markdown files. Remote images will be
+  // used as-is without size inference.
 
   markdown: {
     remarkPlugins: [remarkModifiedTime],
